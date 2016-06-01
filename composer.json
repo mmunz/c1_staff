@@ -1,0 +1,29 @@
+{
+    "name": "c1/c1-staff",
+    "type": "typo3-cms-extension",
+    "version": "0.0.1",
+    "description": "Shows a staff directory with list and single view.",
+    "keywords": [
+        "typo3",
+        "TYPO3 CMS",
+        "Staff",
+        "Employees"
+    ],
+    "homepage": "",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Manuel Munz",
+            "email": "t3dev@comuno.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "C1\\C1Staff\\": "Classes"
+        }
+    },
+    "require": {
+        "typo3/cms": "7.6.0 - 7.6.99"
+    }
+}

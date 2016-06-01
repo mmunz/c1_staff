@@ -1,0 +1,21 @@
+// persistance storage pid needs to be set on extension level, not plugin or
+// it won't be possible to overwrite it in the Backend ("Datensatzsammlung")
+// I'd call that a bug, see https://forge.typo3.org/issues/58857
+
+plugin.tx_c1staff {
+	persistence {
+		storagePid = {$plugin.tx_c1staff.persistence.storagePid}
+	}
+}
+
+plugin.tx_c1staff_list {
+	view {
+		templateRootPaths.0 = {$plugin.tx_c1staff_list.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_c1staff_list.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_c1staff_list.view.layoutRootPath}
+	}
+    features {
+		skipDefaultArguments = 1
+	}
+}
+

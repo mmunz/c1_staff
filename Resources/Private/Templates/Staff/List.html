@@ -1,0 +1,65 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Staff</h1>
+
+<f:flashMessages />
+
+<table  class="tx_c1staff" >
+	<tr>
+		<th><f:translate key="tx_c1staff_domain_model_staff.firstname" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.middlename" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.lastname" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.gender" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.title" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.phone" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.fax" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.mail" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.position" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.employment_start" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.biography" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.free_text" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.image" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.birthdate" /></th>
+		<th><f:translate key="tx_c1staff_domain_model_staff.is_management" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{staffs}" as="staff">
+		<tr>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.firstname}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.middlename}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.lastname}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.gender}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.title}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.phone}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.fax}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.mail}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.position}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.employmentStart}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.biography}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.freeText}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.image.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.birthdate -> f:format.date()}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{staff : staff}"> {staff.isManagement}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{staff : staff}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{staff : staff}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Staff</f:link.action>
+</f:section>

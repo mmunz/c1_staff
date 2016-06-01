@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-06-01T10:30:20Z" product-name="c1_staff">
+		<header/>
+		<body>
+			<trans-unit id="firstname.description">
+				<source>firstname</source>
+			</trans-unit>
+			<trans-unit id="middlename.description">
+				<source>middlename</source>
+			</trans-unit>
+			<trans-unit id="lastname.description">
+				<source>lastname</source>
+			</trans-unit>
+			<trans-unit id="gender.description">
+				<source>gender</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="fax.description">
+				<source>fax</source>
+			</trans-unit>
+			<trans-unit id="mail.description">
+				<source>mail</source>
+			</trans-unit>
+			<trans-unit id="position.description">
+				<source>position</source>
+			</trans-unit>
+			<trans-unit id="employment_start.description">
+				<source>employmentStart</source>
+			</trans-unit>
+			<trans-unit id="biography.description">
+				<source>biography</source>
+			</trans-unit>
+			<trans-unit id="free_text.description">
+				<source>freeText</source>
+			</trans-unit>
+			<trans-unit id="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="birthdate.description">
+				<source>birthdate</source>
+			</trans-unit>
+			<trans-unit id="is_management.description">
+				<source>isManagement</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

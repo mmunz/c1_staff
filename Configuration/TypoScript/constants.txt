@@ -1,0 +1,17 @@
+plugin.tx_c1staff {
+	persistence {
+		# cat=plugin.tx_c1staff_list//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
+
+plugin.tx_c1staff_list {
+	view {
+		# cat=plugin.tx_c1staff_list/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:c1_staff/Resources/Private/Templates/
+		# cat=plugin.tx_c1staff_list/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:c1_staff/Resources/Private/Partials/
+		# cat=plugin.tx_c1staff_list/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:c1_staff/Resources/Private/Layouts/
+	}
+}
