@@ -51,7 +51,11 @@ class StaffController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         if (intval($args['staff']) > 0) {
             $this->forward('show');
         }
+        if (! intval($this->settings['list']['detailPid'] > 0)) {
+            $this->settings['list']['detailPid'] = $GLOBALS['TSFE']->id;
+        }
         $staffs = $this->staffRepository->findAll();
+        $this->view->assign('settings', $this->settings);
         $this->view->assign('staffs', $staffs);
     }
     
@@ -63,6 +67,7 @@ class StaffController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      */
     public function showAction(\C1\C1Staff\Domain\Model\Staff $staff)
     {
+        $this->view->assign('settings', $this->settings);
         $this->view->assign('staff', $staff);
     }
 

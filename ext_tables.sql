@@ -15,7 +15,7 @@ CREATE TABLE tx_c1staff_domain_model_staff (
 	fax varchar(255) DEFAULT '' NOT NULL,
 	mail varchar(255) DEFAULT '' NOT NULL,
 	position varchar(255) DEFAULT '' NOT NULL,
-	employment_start varchar(255) DEFAULT '' NOT NULL,
+	employment_start date DEFAULT '0000-00-00',,
 	biography text NOT NULL,
 	free_text text NOT NULL,
 	image int(11) unsigned NOT NULL default '0',

@@ -14,4 +14,19 @@ plugin.tx_c1staff_list {
 		# cat=plugin.tx_c1staff_list/file; type=string; label=Path to template layouts (FE)
 		layoutRootPath = EXT:c1_staff/Resources/Private/Layouts/
 	}
+    settings {
+        list {
+            detailPid =
+            dateFormat {
+                birthday = Y
+                employmentStart = F Y
+            }
+        }
+        show {
+            dateFormat {
+                birthday = Y
+                employmentStart = F Y
+            } 
+        }
+    }
 }

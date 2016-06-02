@@ -17,5 +17,20 @@ plugin.tx_c1staff_list {
     features {
 		skipDefaultArguments = 1
 	}
+    settings {
+        list {
+            detailPid = {$plugin.tx_c1staff_list.settings.list.detailPid}
+            dateFormat {
+                birthday = {$plugin.tx_c1staff_list.settings.list.dateFormat.birthday}
+                employmentStart = {$plugin.tx_c1staff_list.settings.list.dateFormat.employmentStart}
+            }
+        }
+        show {
+            dateFormat {
+                birthday = {$plugin.tx_c1staff_list.settings.show.dateFormat.birthday}
+                employmentStart = {$plugin.tx_c1staff_list.settings.show.dateFormat.employmentStart}
+            } 
+        }
+    }
 }
 

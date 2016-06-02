@@ -1,5 +1,6 @@
 
 <table class="tx-c1-staff" >
+    <f:debug>{settings}</f:debug>
 	<tr>
 		<td>
 			<f:translate key="tx_c1staff_domain_model_staff.firstname" />
@@ -61,7 +62,7 @@
 			<f:translate key="tx_c1staff_domain_model_staff.mail" />
 		</td>
 		<td>
-		{staff.mail}
+            <f:link.email email="{staff.mail}" />
 		</td>
 	</tr>
 	<tr>
@@ -77,7 +78,7 @@
 			<f:translate key="tx_c1staff_domain_model_staff.employment_start" />
 		</td>
 		<td>
-		{staff.employmentStart}
+		{staff.employmentStart -> f:format.date(format:settings.show.dateFormat.employmentStart)}
 		</td>
 	</tr>
 	<tr>
@@ -85,7 +86,7 @@
 			<f:translate key="tx_c1staff_domain_model_staff.biography" />
 		</td>
 		<td>
-		{staff.biography}
+		{staff.biography -> f:format.html()}
 		</td>
 	</tr>
 	<tr>
@@ -93,7 +94,7 @@
 			<f:translate key="tx_c1staff_domain_model_staff.free_text" />
 		</td>
 		<td>
-		{staff.freeText}
+		{staff.freeText -> f:format.html()}
 		</td>
 	</tr>
 	<tr>
@@ -109,7 +110,7 @@
 			<f:translate key="tx_c1staff_domain_model_staff.birthdate" />
 		</td>
 		<td>
-		{staff.birthdate -> f:format.date()}
+		{staff.birthdate -> f:format.date(format:settings.show.dateFormat.birthday)}
 		</td>
 	</tr>
 	<tr>

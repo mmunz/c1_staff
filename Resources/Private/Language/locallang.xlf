@@ -1,56 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2016-06-01T10:30:20Z" product-name="c1_staff">
-		<header/>
-		<body>
-			<trans-unit id="tx_c1staff_domain_model_staff">
-				<source>Staff</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.firstname">
-				<source>Firstname</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.middlename">
-				<source>Middlename</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.lastname">
-				<source>Lastname</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.gender">
-				<source>Gender</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.title">
-				<source>Title</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.phone">
-				<source>Phone</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.fax">
-				<source>Fax</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.mail">
-				<source>Mail</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.position">
-				<source>Position</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.employment_start">
-				<source>Employment Start</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.biography">
-				<source>Biography</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.free_text">
-				<source>Free Text</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.image">
-				<source>Image</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.birthdate">
-				<source>Birthdate</source>
-			</trans-unit>
-			<trans-unit id="tx_c1staff_domain_model_staff.is_management">
-				<source>Is Management</source>
-			</trans-unit>
-		</body>
-	</file>
+    <file source-language="en" datatype="plaintext" original="messages" date="2016-06-01T10:30:20Z" product-name="c1_staff">
+        <header/>
+        <body>
+            <trans-unit id="tx_c1staff_domain_model_staff">
+                <source>Staff</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.firstname">
+                <source>Firstname</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.middlename">
+                <source>Middlename</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.lastname">
+                <source>Lastname</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.gender">
+                <source>Gender</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.phone">
+                <source>Phone</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.fax">
+                <source>Fax</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.mail">
+                <source>Mail</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.position">
+                <source>Position</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.employment_start">
+                <source>Employment Start</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.employment_start.text">
+                <source>With Kunzmann &amp; Weigel since</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.biography">
+                <source>Biography</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.free_text">
+                <source>Free Text</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.image">
+                <source>Image</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.birthdate">
+                <source>Birthdate</source>
+            </trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.is_management">
+                <source>Is Management</source>
+            </trans-unit>
+            <trans-unit id="settings.detailPid">
+                <source>Detail PID</source>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>
