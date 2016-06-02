@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2016-06-01T10:30:20Z" product-name="c1_staff">
+        <header/>
+        <body>
+            <trans-unit id="tx_c1staff_domain_model_staff" approved="yes">
+                <source>Staff</source> <target state="translated">Mitarbeiter</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.firstname" approved="yes">
+                <source>Firstname</source> <target state="translated">Vorname</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.middlename" approved="yes">
+                <source>Middlename</source> <target state="translated">Mittelname</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.lastname" approved="yes">
+                <source>Lastname</source> <target state="translated">Nachname</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.gender" approved="yes">
+                <source>Gender</source> <target state="translated">Geschlecht</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.title" approved="yes">
+                <source>Title</source> <target state="translated">Titel</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.phone" approved="yes">
+                <source>Phone</source> <target state="translated">Telefon</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.fax" approved="yes">
+                <source>Fax</source> <target state="translated">Fax</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.mail" approved="yes">
+                <source>Mail</source> <target state="translated">E-Mail</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.position" approved="yes">
+                <source>Position</source> <target state="translated">Position</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.employment_start" approved="yes">
+                <source>Employment Start</source> <target state="translated">Start der Beschäftigung</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.employment_start.text" approved="yes">
+                <source>With our company since</source> <target state="translated">In unserer Firma seit</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.biography" approved="yes">
+                <source>Biography</source> <target state="translated">Biographie</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.free_text" approved="yes">
+                <source>Free Text</source> <target state="translated">Freier Text</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.image" approved="yes">
+                <source>Image</source> <target state="translated">Bild</target></trans-unit>
+            <trans-unit id="tx_c1staff_domain_model_staff.birthdate" approved="yes">
+                <source>Birthdate</source> <target state="translated">Geburtstag</target></trans-unit>
+            <trans-unit id="settings.detailPid" approved="yes">
+                <source>Detail PID</source> <target state="translated">PID der Detailseite</target></trans-unit>
+        </body>
+    </file>
+</xliff>
