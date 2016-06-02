@@ -37,7 +37,7 @@
                 <source>Employment Start</source>
             </trans-unit>
             <trans-unit id="tx_c1staff_domain_model_staff.employment_start.text">
-                <source>With Kunzmann &amp; Weigel since</source>
+                <source>With our company since</source>
             </trans-unit>
             <trans-unit id="tx_c1staff_domain_model_staff.biography">
                 <source>Biography</source>
