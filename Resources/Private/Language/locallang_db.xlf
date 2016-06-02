@@ -54,9 +54,6 @@
             <trans-unit id="tx_c1staff_domain_model_staff.birthdate">
                 <source>Birthdate</source>
             </trans-unit>
-            <trans-unit id="tx_c1staff_domain_model_staff.is_management">
-                <source>Is Management</source>
-            </trans-unit>
         </body>
     </file>
 </xliff>

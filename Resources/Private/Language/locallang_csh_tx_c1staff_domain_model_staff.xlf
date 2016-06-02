@@ -45,9 +45,6 @@
 			<trans-unit id="birthdate.description">
 				<source>birthdate</source>
 			</trans-unit>
-			<trans-unit id="is_management.description">
-				<source>isManagement</source>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>
