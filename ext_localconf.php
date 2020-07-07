@@ -4,7 +4,7 @@ if (!defined('TYPO3_MODE')) {
 }
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'C1.' . $_EXTKEY,
+	'C1.C1Staff',
 	'List',
 	array(
 		'Staff' => 'list, show',

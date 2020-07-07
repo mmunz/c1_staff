@@ -1,6 +1,8 @@
 <?php
 namespace C1\C1Staff\Controller;
 
+use C1\C1Staff\Domain\Repository\StaffRepository;
+
 /***************************************************************
  *
  *  Copyright notice
@@ -35,10 +37,18 @@ class StaffController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     /**
      * staffRepository
      *
-     * @var \C1\C1Staff\Domain\Repository\StaffRepository
-     * @inject
+     * @var StaffRepository
+     *
      */
     protected $staffRepository = NULL;
+
+    /**
+     * @param StaffRepository $staffRepository
+     */
+    public function injectStaffRepository(StaffRepository $staffRepository)
+    {
+        $this->staffRepository = $staffRepository;
+    }
     
     /**
      * action list

@@ -1,7 +1,7 @@
 {
     "name": "c1/c1-staff",
     "type": "typo3-cms-extension",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Shows a staff directory with list and single view.",
     "keywords": [
         "typo3",
@@ -24,6 +24,6 @@
         }
     },
     "require": {
-        "typo3/cms": "7.6.0 - 7.6.99"
+        "typo3/cms-core": "^10.4"
     }
 }
